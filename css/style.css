@@ -1,9 +1,14 @@
 
 body {
-	font-family: consolas;
+	font-family: Consol;
 	color: white;
 	overflow-x: hidden;
 	background-color: black;
+}
+
+@font-face {
+	font-family: Consol;
+	src: url(consola.ttf);
 }
 
 @font-face {
