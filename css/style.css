@@ -2,7 +2,7 @@
 body {
 	font-family: Consol;
 	color: white;
-	overflow-x: hidden;
+	overflow: hidden;
 	background-color: black;
 }
 
