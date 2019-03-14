@@ -108,6 +108,7 @@ body {
 	font-family: Pixel;
 	text-align: left;
 	text-shadow: black 5px 6px 7px;
+	opacity: 0.5;
 }
 
 span{
