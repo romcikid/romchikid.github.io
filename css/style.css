@@ -1,4 +1,3 @@
-
 body {
 	font-family: Consol;
 	color: white;
@@ -17,8 +16,8 @@ body {
 }
 
 @font-face {
-	font-family: Pixel;
-	src: url(PIXEL.ttf);
+	font-family: VCR;
+	src: url(vcr.ttf);
 }
 
 @font-face {
@@ -29,6 +28,17 @@ body {
 @font-face {
 	font-family: Slamer;
 	src: url(slammertag.ttf);
+}
+
+@font-face {
+	font-family: hack;
+	src: url(HACKED.ttf);
+}
+
+
+@font-face {
+	font-family: Retro;
+	src: url(Sunset Boulevard.otf);
 }
 
 .id_card {
@@ -46,11 +56,6 @@ body {
     background: url(time.gif)   repeat center  #fff;
     background-color: gray;
     background-size: 8% auto;
-}
-
-#meeting {
-	font-size: 25px;
-	margin: 40px;
 }
 
 #me {
@@ -88,12 +93,12 @@ body {
 
 .code{
 	background-color: black;
+	color: green;
+	cursor: url(CursorsXP.cur), default;
 }
 
 .about_me {
 	display: none;
-	background-color: black;
-	color: green;
 	margin-top: 0px;
 }
 
@@ -106,14 +111,10 @@ body {
 	text-align: left;
 	font-size: 35px;
 	color: white;
-	font-family: Pixel;
+	font-family: VCR;
 	text-align: left;
 	text-shadow: black 5px 6px 7px;
 	opacity: 0.5;
-}
-
-span{
-	margin-right: 25px;
 }
 
 .line {
@@ -127,42 +128,22 @@ span{
 	border-radius: 100px; 
 }
 
-.hobbies {
-	background: url(wood.jpg) no-repeat;
-	background-size: cover;
-}
-
-#hobbie {
-	font-family: Slamer;
-	text-align: center;
-	font-size: 100px;
-	color: white;
-	text-shadow: black 3px 3px 0px;
-}
-
-#hobbie_gif {
-	height: 240px;
-	width: 260px;
-}
-
-.polaroid
-{
-	height: 400px;
-	width: 290px;
-	margin: 30px 30px 30px 30px;
-	background-color: white;
+.task {
+	box-shadow: 0px 3px 3px black;
+	border: 4px;
+	border-right: 5px;
+	border-top: 5px;
+	border-color: black;
+	font-size: 20px;
 	color: black;
-	border-color: white;
-	border-style: solid;
-	background-size: auto;
-	font-family: ALEX;
-	font-size: 40px;
-	box-shadow: black 3px 4px 5px;
 }
 
-.p_gif{
-	text-align: center;
-	margin-top:10px;
+.task_line {
+	cursor: url(CursorsXP.cur), default;
+}
+
+.selected {
+	cursor: url(Cursor_15.cur), pointer;
 }
 
 #this_is_the_end {
@@ -174,5 +155,5 @@ span{
 }
 
 #end {
-	margin-top: 120px;
+	margin-top: 20px;
 }
