@@ -138,6 +138,13 @@ body {
 	color: black;
 }
 
+.task_selected {
+	border-left: 3px solid black;
+	border-top: 3px solid black;
+	color: black;
+	background-color: #ededed;
+}
+
 .task_line {
 	cursor: url(CursorsXP.cur), default;
 }
