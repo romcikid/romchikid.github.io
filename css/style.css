@@ -90,7 +90,6 @@ body {
 	background-color: #008080;
 	color: green;
 	height: 800px;
-	overflow: auto;
 	cursor: url(CursorsXP.cur), default;
 	position: relative;
 }
