@@ -87,14 +87,44 @@ body {
 }
 
 #code {
-	background-color: black;
+	background-color: #008080;
 	color: green;
+	height: 800px;
+	overflow: auto;
+	cursor: url(CursorsXP.cur), default;
+	position: relative;
 }
 
-.code{
+#code_file{
 	background-color: black;
-	color: green;
-	cursor: url(CursorsXP.cur), default;
+	height: 800px;
+}
+
+#wallpaper{
+	background-color: #008080;
+}
+
+#invisible{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 3vw;
+  top: 5vw;
+  display: none;
+}
+
+#finish{
+  width: 300px;
+  height: 100px;
+  left: 0px;
+}
+
+#start
+{
+	width: 80px;
+	height: 30px;
+	top: 120px;
+	left: 100px;
 }
 
 .about_me {
@@ -109,12 +139,14 @@ body {
 
 .info {
 	text-align: left;
-	font-size: 35px;
+	font-size: 30px;
 	color: white;
 	font-family: VCR;
 	text-align: left;
 	text-shadow: black 5px 6px 7px;
 	opacity: 0.5;
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
 .line {
@@ -134,8 +166,9 @@ body {
 	border-right: 5px;
 	border-top: 5px;
 	border-color: black;
-	font-size: 20px;
+	font-size: 17px;
 	color: black;
+	padding: 3px;
 }
 
 .task_selected {
@@ -143,10 +176,7 @@ body {
 	border-top: 3px solid black;
 	color: black;
 	background-color: #ededed;
-}
-
-.task_line {
-	cursor: url(CursorsXP.cur), default;
+	padding: 3px;
 }
 
 .selected {
