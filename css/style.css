@@ -94,7 +94,7 @@ body {
 	position: relative;
 }
 
-#code_file{
+.code_file{
 	background-color: black;
 	height: 800px;
 	overflow: auto;
@@ -130,6 +130,12 @@ body {
 .about_me {
 	display: none;
 	margin-top: 0px;
+}
+
+#butty{
+	text-align: right;
+	padding: 0px;
+	margin: 0px;
 }
 
 .pict {
@@ -190,6 +196,12 @@ body {
 	text-align: center;
 	color: red;
 }
+
+#file{
+	height: 70px;
+	width: 70px;
+}
+
 
 #end {
 	margin-top: 20px;
