@@ -20,16 +20,16 @@ $(document).ready(function($) {
 
     $('#exe').click(function() { 
         // Отображаем скрытый блок 
-        $('#code_file').fadeIn("slow"); // fadeIn - плавное появление
+        $('.thanos_snap').fadeIn("slow"); // fadeIn - плавное появление
     }); // end of click()
 
      $('#anexe').click(function() { 
         // Отображаем скрытый блок 
-        $('#code_file').fadeIn("slow"); // fadeIn - плавное появление
+        $('.thanos_snap').fadeIn("slow"); // fadeIn - плавное появление
     }); // end of click()
 
     $('#close').click(function() { 
         // Отображаем скрытый блок 
-        $('#code_file').fadeOut("slow"); // fadeIn - плавное появление
+        $('.thanos_snap').fadeOut("slow"); // fadeIn - плавное появление
     }); // end of click()
 });
