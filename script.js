@@ -1,35 +1,51 @@
+function now_you_see_me()
+{
+    $(".about_me").each(function(index) {
+        $(this).delay(500 * index).fadeIn(10);
+    });
+}
+
 $(document).ready(function($) {
 
 	setTimeout(function() {
 		      $('.preloader').fadeOut("slow");
 	}, 1500);	 
 
-	$(".about_me").each(function(index) {
-		$(this).delay(500 * index).fadeIn(10);
-	});
+	now_you_see_me();
 
     $('#games').click(function() { 
-        // Отображаем скрытый блок 
-        $('#invisible').fadeIn("slow"); // fadeIn - плавное появление
-    }); // end of click()
+
+        $('#invisible').fadeIn("slow");
+    });
 
     $('#finish').click(function() { 
-        // Отображаем скрытый блок 
-        $('#invisible').fadeOut("slow"); // fadeIn - плавное появление
-    }); // end of click()
+        $('#invisible').fadeOut("slow");
+    });
 
-    $('#exe').click(function() { 
-        // Отображаем скрытый блок 
-        $('.thanos_snap').fadeIn("slow"); // fadeIn - плавное появление
-    }); // end of click()
+    $('#exe').click(function() {
+        $('.thanos_snap').fadeIn("slow");
+    });
 
-     $('#anexe').click(function() { 
-        // Отображаем скрытый блок 
-        $('.thanos_snap').fadeIn("slow"); // fadeIn - плавное появление
-    }); // end of click()
+     $('#anexe').click(function() {
+        $('.thanos_snap').fadeIn("slow");
+        $('#exe').fadeIn("slow");
+        now_you_see_me();
+    });
 
-    $('#close').click(function() { 
-        // Отображаем скрытый блок 
-        $('.thanos_snap').fadeOut("slow"); // fadeIn - плавное появление
-    }); // end of click()
+    $('#roll').click(function() {
+        $('.thanos_snap').fadeOut("slow");
+    });
+
+    $('#close').click(function() {
+        $('.thanos_snap').fadeOut("slow");
+        $(".about_me").each(function(index) {
+            $(this).fadeOut();
+        });
+        $('#exe').fadeOut("slow");
+    });
+
+     $('#folder').click(function() {
+        $('#wallpaper').fadeOut();
+        $('.error_95').fadeIn();
+    });
 });
