@@ -23,6 +23,26 @@
 <body>
 	<div class="preloader"></div>
 	
+	<div class="error_95">
+		<div class="row">
+			<div class="container">
+
+
+					<p class="error_title_95" align="center"><a class="error_title_text_95" >Шindows</a></p>
+
+					<p>A fatal exception OE has occurred at 2202:C1984B43. The current application will be terminated.</p>
+
+					<ul>
+					  <li>Chto ti nadelal, Lalka?.</li>
+					  <li>Don't press CTRL+ALT+DEL again to restart your computer. You will lose any unsaved information in all applications. Ti poteryayesh vse!!!</li>
+					</ul>
+
+					<p align="center">Press F5 to continue <a class="blink">_</a></p>
+
+			</div>
+		</div>
+	</div>
+
 	<div class="id_card">
 		<div class="row">
 			<div class="container">
@@ -39,9 +59,7 @@
 							<p class="info">Статус: <a class="blink" href="https://kazan.hh.ru/resume/4ee6cd3cff05b896f30039ed1f54526e706571">Безработный</a></p>
 							<br>
 
-						</div>
-					
-
+						</div>				
 			</div>
 		</div>
 	</div>
@@ -52,7 +70,7 @@
 
 			<div id="invisible">
 				
-				<img id="finish" src="icons/finish.gif">
+				<img id="finish" class="selected" src="icons/finish.gif">
 
 
 				<div id="carousel" class="carousel slide" data-ride="carousel" data-interval="false">
@@ -84,7 +102,7 @@
 
 				<p id="butty">
 
-					<img src="icons/buttons/minimize.png" class="button selected">
+					<img id="roll" src="icons/buttons/minimize.png" class="button selected">
 					<img src="icons/buttons/maximize.png" class="button selected">	
 					<img id="close" src="icons/buttons/close.png" class="button selected">
 				</p>
@@ -139,12 +157,19 @@
 			</div>
 		</div>
 
-	
-		<div id="anexe" class="selected">
-			<p style="padding-left: 10px;"><img src="icons/file.png" id="file"></p>
+		<div id="folder" class="selected">
+			<p style="padding-left: 10px;  margin-bottom: 0px;"><img src="icons/win.png" class="file"></p>
 		</div>
 		
-		<p class="selected" style="text-align: left; color: white;">
+		<p class="selected" style="padding-left: 20px; text-align: left; color: white;">
+			Порно
+		</p>
+
+		<div id="anexe" class="selected">
+			<p style="padding-left: 10px; margin-bottom: 0px;"><img src="icons/run.png" class="file"></p>
+		</div>
+		
+		<p class="selected" style="padding-left: 3px; text-align: left; color: white;">
 			About_me.exe
 		</p>
 
@@ -154,8 +179,7 @@
 
 				<img src="icons/buttons/start.gif" id="start" class="selected">
 				<a id="exe" class="task_selected selected" style="color: black;">About_me.exe</a>
-				<a class="task selected" style="color: black;">Видео</a>
-				<a class="task selected" style="color: black;">Мои_картины</a>
+				<a class="task selected" style="color: black; display: none;">Видео</a>
 				<a id="games" class="task selected" style="color: black;">Видеоигры</a>
 
 			</p>
