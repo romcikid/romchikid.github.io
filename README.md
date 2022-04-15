@@ -1,2 +1,2 @@
 # romchikid.github.io
-My first site :) //Don't hit me)
+My first card site for coursework.
